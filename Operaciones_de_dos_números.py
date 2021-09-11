@@ -1,5 +1,3 @@
-import sys
-
 números = [1, 2]
 valores = []
 for i in números:
