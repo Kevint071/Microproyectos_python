@@ -1,3 +1,5 @@
+import sys
+
 números = [1, 2]
 valores = []
 for i in números:
@@ -12,10 +14,7 @@ Resta = Num1 - Num2
 Mult = Num1 * Num2
 Div = Num1 / Num2
 
-operaciones = [Suma, Resta, Mult, Div]
-strings = ["suma", "resta", "multiplicación", "división"]
-
-for i in strings:
-    x = f"La {i} de los 2 números es: ", operaciones[2]
-    print (x)
-
+print(f"La suma de los 2 números es: {Suma}")
+print(f"La resta de los 2 números es: {Resta}")
+print(f"La multiplicación de los 2 números es: {Mult}")
+print(f"La división de los 2 números es: {Div}")
