@@ -8,4 +8,3 @@ def edad ():
 edad()
 
 print(edad_nacimiento_persona)
-print(edad_nacimiento_persona)
