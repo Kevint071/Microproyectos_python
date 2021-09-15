@@ -24,8 +24,3 @@ def notas ():
     if Nota_1 >= 0 and Nota_1 <= 10 and Nota_2 >= 0 and Nota_2 <= 10 and Nota_3 >= 0 and Nota_3 <= 10:
         print(f"El promedio de sus notas es {Promedio}")
 notas()
-
-
-
-
-
