@@ -15,10 +15,12 @@ def notas ():
 
     if Nota_1 < 0 or Nota_2 < 0 or Nota_3 < 0:
         print("El valor digitado no es válido")
+        print("Digite una nota mayor o igual a 0 y menor o igual a 10")
         notas()
     
     if Nota_1 > 10 or Nota_2 > 10 or Nota_3 > 10:
         print("El valor digitado no es válido")
+        print("Digite una nota mayor o igual a 0 y menor o igual a 10")
         notas()
     
     if Nota_1 >= 0 and Nota_1 <= 10 and Nota_2 >= 0 and Nota_2 <= 10 and Nota_3 >= 0 and Nota_3 <= 10:
