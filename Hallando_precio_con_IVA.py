@@ -10,11 +10,9 @@ def precio (Precio_producto):
     
     if Precio_iva % 1 == 0:
         Precio_iva = int(Precio_iva)
-        
     
     if Precio_iva % 1 != 0:
         Precio_iva = float(Precio_iva)
-        "{:.2f}".format(Precio_iva)
 
     Precio_producto_final = Precio_producto + Precio_iva
 
@@ -35,4 +33,3 @@ def precio (Precio_producto):
         print(f"El precio del IVA es: {Precio_iva} pesos")
 
 precio(input("Digite el precio del producto \n"))
-
