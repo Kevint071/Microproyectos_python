@@ -15,7 +15,7 @@ def números ():
         Num_2 = float(Num_2)
 
     if Num_3.isdigit() == False:
-        Nota_3 = float(Num_3)
+        Num_3 = float(Num_3)
     
     if Num_4.isdigit() == False:
         Num_4 = float(Num_4)
@@ -48,6 +48,7 @@ def números ():
         print(f"La suma de los números es: " + "{:.2f}".format(Suma))
 
     if Promedio % 1 == 0:
+        Promedio = int(Promedio)
         print(f"El promedio de los números es: {Promedio}")
     if Promedio % 1 != 0:
         print(f"El promedio de los números es: " + "{:.2f}".format(Promedio))
