@@ -7,13 +7,13 @@ for i in números:
 
 Num1, Num2 = valores
 
-if Num1.isdigit() == False:
+if float(Num1)%1 != 0:
     Num1 = float(Num1)
 
 if float(Num1)%1 == 0:
     Num1 = int(Num1)
 
-if Num2.isdigit() == False:
+if float(Num2)%1 != 0:
     Num2 = float(Num2)
 
 if float(Num2)%1 == 0:
@@ -24,26 +24,30 @@ Resta = Num1 - Num2
 Mult = Num1 * Num2
 Div = Num1 / Num2
 
-if str(Suma).isdigit() == True:
+if Suma % 1 == 0:
+    Suma = int(Suma)
     print(f"La suma de los 2 números es: {Suma}")
 
-if str(Suma).isdigit() == False:
+if Suma % 1 != 0:
     print(f"La suma de los 2 números es: " + "{:.2f}".format(Suma))
     
-if str(Resta).isdigit() == True:
+if Resta % 1 == 0:
+    Resta = int(Resta)
     print(f"La resta de los 2 números es: {Resta}")
 
-if str(Resta).isdigit() == False:
+if Resta % 1 != 0:
     print(f"La resta de los 2 números es: " + "{:.2f}".format(Resta))
-    
-if str(Mult).isdigit() == True:
+   
+if Mult % 1 == 0:
+    Mult = int(Mult)
     print(f"La multiplicación de los 2 números es: {Mult}")
 
-if str(Mult).isdigit() == False:
+if Mult % 1 != 0:
     print(f"La multiplicación de los 2 números es: " + "{:.2f}".format(Mult))
 
-if str(Div).isdigit() == True:
+if Div % 1 == 0:
+    Div = int(Div)
     print(f"La división de los 2 números es: {Div}")
 
-if str(Div).isdigit() == False:
+if Div % 1 != 0:
     print(f"La división de los 2 números es: " + "{:.3f}".format(Div))
