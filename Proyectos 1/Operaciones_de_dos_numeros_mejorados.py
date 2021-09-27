@@ -1,9 +1,12 @@
-números = [1, 2]
 valores = []
-for i in números:
-    print("Digite el número: ", i)
-    x = input()
-    valores.append(float(x))
+i = 1
+while i <= 2:
+    try:
+      x = float(input(f"Digite el número {i}: "))
+      valores.append(x) 
+      i += 1
+    except ValueError:
+      print("El dato no es un número válido. Introdúzcalo de nuevo.")
 
 Num1, Num2 = valores
     
