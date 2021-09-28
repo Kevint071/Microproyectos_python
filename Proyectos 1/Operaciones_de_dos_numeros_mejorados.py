@@ -1,3 +1,6 @@
+from typing import ValuesView
+
+
 valores = []
 i = 1
 while i <= 2:
@@ -6,7 +9,7 @@ while i <= 2:
       valores.append(x) 
       i += 1
     except ValueError:
-      print("El dato no es un número válido. Introdúzcalo de nuevo.")
+        print("El dato no es un número válido. Introdúzcalo de nuevo.")
 
 Num1, Num2 = valores
     
