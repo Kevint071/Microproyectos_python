@@ -1,6 +1,5 @@
 while True:
     nombre = input("Digite el nombre del producto: ")
-
     lista_nombre = nombre.split(" ")
     nombre_separado = []
 
