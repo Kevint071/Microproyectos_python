@@ -25,24 +25,26 @@ while True:
         break
 
     else:
-        print()
         print("Clave no válida")
 
 while True:
-    precio = float(input("Digite el precio del producto: "))
 
-    if precio <= 0:
-        print("Valor no válido")
-        print()
-    
-    else:
-        if precio % 1 == 0:
-            precio = int(precio)
+    try:
+        precio = float(input("Digite el precio del producto: "))
+
+        if precio <= 0:
+            print("Valor no válido")
         
-        if precio % 1 != 0:
-            precio = (f"{precio:g}")
-            precio = float(precio)
-        break
+        else:
+            if precio % 1 == 0:
+                precio = int(precio)
+            
+            if precio % 1 != 0:
+                precio = (f"{precio:g}")
+                precio = float(precio)
+            break
+    except:
+        print("Valor no válido")
 
 precio_final = precio - precio*dto
 
