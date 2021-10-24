@@ -16,7 +16,6 @@ while True:
 
 while True:
     clave = input("Digite la clave del producto: ")
-
     if clave == "01":
         dto = 0.1
         break
