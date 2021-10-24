@@ -31,7 +31,6 @@ while True:
         print("Clave no válida")
 
 while True:
-
     precio = float(input("Digite el precio del producto: "))
 
     if precio <= 0:
