@@ -6,7 +6,7 @@ while True:
     for i in range(0, len(lista_nombre)):
         if lista_nombre[i].isalpha() == True:
             nombre_separado.append(lista_nombre[i])
-        if lista_nombre[i].isalpha() == False:
+        else:
             break
     
     if len(nombre_separado)/len(lista_nombre) == 1:
