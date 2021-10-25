@@ -39,7 +39,7 @@ while True:
             if precio % 1 == 0:
                 precio = int(precio)
             
-            if precio % 1 != 0:
+            else:
                 precio = (f"{precio:g}")
                 precio = float(precio)
             break
