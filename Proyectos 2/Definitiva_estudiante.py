@@ -1,5 +1,4 @@
 while True:
-
     try:
         print()
         nota = float(input("Digite la nota final del periodo: "))
@@ -15,7 +14,7 @@ while True:
             print()
             print("La nota debe ser mayor o igual a 30 y menor a 100")
         
-        if nota >= 30 and nota < 65:
+        if nota >= 30 < 65:
             print()
             print(f"Su promedio es de {nota}, por lo tanto es bajo")
             break
