@@ -32,3 +32,4 @@ while True:
         print("El número no es válido")
     
 print(f"El número codificado es {num}")
+input("")

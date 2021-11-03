@@ -2,6 +2,8 @@ num1 = float(input("Digite el número 1: "))
 num2 = float(input("Digite el número 2: "))
 num3 = float(input("Digite el número 3: "))
 
+print()
+
 if num1 > num2 and num2 > num3:
     print(f"El número 1({num1:g}) es el mayor")
     print(f"El número 3({num3:g}) es el menor ")

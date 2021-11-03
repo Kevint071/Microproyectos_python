@@ -25,8 +25,8 @@ while True:
             cantidad_hora_extra = float(cantidad_hora_extra)
         
         if cantidad_hora_extra > 8:
-            hora_extra = hora_normal * 3
-            hora_extra = cantidad_hora_extra * hora_extra
+            hora_extra = (cantidad_hora_extra - 8) * hora_normal * 3
+            hora_extra = hora_extra + (hora_normal * 16)
             
             if hora_extra % 1 == 0:
                 hora_extra = int(hora_extra)
@@ -50,4 +50,4 @@ while True:
     except:
         print("Valor no válido")
 
-print(f"El valor a pagar es de: {pago_semana + hora_extra}")
+print(f"\nEl valor a pagar es de: ${pago_semana + hora_extra}")

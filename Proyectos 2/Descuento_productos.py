@@ -16,7 +16,7 @@ while True:
             except:
                 print("Valor no válido")
 
-        if cantidad == 20:
+        if cantidad <= 20 and cantidad > 10:
             descuento = 0.05
 
         elif cantidad > 20:
