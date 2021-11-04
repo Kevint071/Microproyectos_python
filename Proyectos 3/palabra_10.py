@@ -10,6 +10,5 @@ while True:
             print(f"{i}. {palabra}")
         print()
         break
-
     else:
         print("La palabra no es válida\n")
