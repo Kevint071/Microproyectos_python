@@ -5,7 +5,6 @@ while True:
     if ingresos < 1600000:
         anticipo = casa *  0.15
         pago_mensual = (casa - anticipo) / (15*12)
-
         if anticipo % 1 == 0:
             anticipo = int(anticipo)
         else:
